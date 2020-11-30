@@ -1,0 +1,8 @@
+﻿CREATE TABLE [Person].[Test] (
+  [ID] [int] NOT NULL,
+  [name] [nvarchar](max) NULL,
+  CONSTRAINT [PK_tbl_name_ID] PRIMARY KEY CLUSTERED ([ID]) WITH (FILLFACTOR = 70)
+)
+ON [PRIMARY]
+TEXTIMAGE_ON [PRIMARY]
+GO
